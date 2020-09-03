@@ -1,0 +1,58 @@
+div.top-footer-container{
+    background-color: #3C3C3C;
+    padding: 44px 0 62px 0;
+}
+
+.top-footer-container input[type=text]{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 4px;
+    width: 315px;
+    height: 32px;
+    background-color: #3C3C3C;
+}
+
+.top-footer-container .button {
+    padding: 6px 12px 11px 12px;
+    background: #719FFF;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 337px;
+    height: 54px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, serif;
+  }
+
+
+  table.main-table {
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:100%
+  }
+  .footer-table-header-1{
+    color: white;
+    font-family: system-ui;
+    font-size: 36px;
+  }
+  .footer-table-header-2{
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+  }
+
+  .table-3{
+    border-spacing: 72px 18px;
+    color:#818181  ;
+    font-family: sans-serif;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+     color: #818181 ;
+     text-decoration: none;
+  }
+  

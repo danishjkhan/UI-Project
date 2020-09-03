@@ -1,0 +1,13 @@
+<div class="search-body-container"> 
+
+    <div class="row">
+            <div *ngFor="let gif of dataArray; let i = index">
+                <div *ngIf="i % 3 == 0" class="column">
+                    <div><img src={{gif.images.downsized.url}}/></div>
+                    <div *ngIf="i + 1 < dataArray.length"><img src={{dataArray[i+1].images.downsized.url}}/></div>
+                    <div *ngIf="i + 2 < dataArray.length"><img src={{dataArray[i+2].images.downsized.url}}/></div>
+                </div> 
+            </div>
+    </div>
+</div>
+<app-search-footer></app-search-footer>

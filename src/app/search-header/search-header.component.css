@@ -1,0 +1,26 @@
+*{
+    margin : 0px 0px 0px 0px;
+}
+
+.header {
+    background-color: #FF7000;
+    text-align: center;
+}
+.header-title{
+	font-family: Calibri;
+    color: #FFFFFF;
+    font-size: 72px;
+    padding : 49px;
+}
+.header-subtitle-1{
+	font-family: Calibri;
+    color: #FFFFFF;
+    font-size: 34px;
+    padding: 48px 0 0px 0;
+}
+.header-subtitle-2{
+	font-family: Calibri;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 13px 0 40px;
+}
